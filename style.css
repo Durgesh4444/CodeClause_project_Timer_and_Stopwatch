@@ -24,11 +24,13 @@ body {
 }
 .main a {
   text-decoration: none;
-  width: 30%;
+  width: 20%;
   text-align: center;
   height: 3.5rem;
   border-radius: 10px;
   font-weight: bold;
+  font-size: 2rem;
+  padding-top: 5px;
 }
 .active {
   background-color: #fff;
@@ -85,8 +87,8 @@ section {
 .time {
   position: absolute;
   top: 8.5rem;
-  left: 2.5rem;
-  font-size: 3rem;
+  left: 2rem;
+  font-size:2.7rem;
 }
 
 /* buttons  */
@@ -147,7 +149,7 @@ li {
   left: 2rem;
 }
 .timer input {
-  font-size: 3rem;
+  font-size: 2.7rem;
   width: 4rem;
   height: 3rem;
   text-align: center;
@@ -227,4 +229,8 @@ li {
   .time-stamp {
     width: 50%;
   }
+  .timer input {
+    font-size: 2.5rem;
+   
+}
 }
