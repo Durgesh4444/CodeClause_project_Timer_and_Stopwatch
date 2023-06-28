@@ -186,6 +186,9 @@ li {
     position: static;
     justify-content: center;
   }
+   .main a {
+    width: 41%;
+    }
 }
 /* mobile  */
 @media only screen and (max-width: 600px) {
